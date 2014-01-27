@@ -13,23 +13,23 @@ phonecatApp.controller('alexController', function($scope) {
     $scope.units = [
         {'name': 'Kilograms',   'shorthand': 'kgs',         'type': 'weight',       'mult': 1},
         {'name': 'Grams',       'shorthand': 'gs',          'type': 'weight',       'mult': 1000},
-        {'name': 'Pounds',      'shorthand': 'lbs',         'type': 'weight',       'mult': 2.6},
+        {'name': 'Pounds',      'shorthand': 'lbs',         'type': 'weight',       'mult': 2.20462},
         
         {'name': 'Meters',      'shorthand': 'm',           'type': 'length',       'mult': 1},
         {'name': 'Centimetres', 'shorthand': 'cm',          'type': 'length',       'mult': 100},
-        {'name': 'Kilomtres',   'shorthand': 'km',          'type': 'length',       'mult': 0.01},
-        {'name': 'Inches',      'shorthand': 'inch',        'type': 'length',       'mult': 33},
-        {'name': 'Yards',       'shorthand': 'yd',          'type': 'length',       'mult': 1.4},
-        {'name': 'Miles',       'shorthand': 'mile',        'type': 'length',       'mult': 0.005},
+        {'name': 'Kilomtres',   'shorthand': 'km',          'type': 'length',       'mult': 0.001},
+        {'name': 'Inches',      'shorthand': 'inch',        'type': 'length',       'mult': 39.3700787},
+        {'name': 'Yards',       'shorthand': 'yd',          'type': 'length',       'mult': 1.0936133},
+        {'name': 'Miles',       'shorthand': 'mile',        'type': 'length',       'mult': 0.000621371192},
 
         {'name': 'Litres',      'shorthand': 'l',           'type': 'volume',       'mult': 1},
         {'name': 'Centilitre',  'shorthand': 'cl',          'type': 'volume',       'mult': 100},
         {'name': 'Mililitre',   'shorthand': 'ml',          'type': 'volume',       'mult': 1000},
-        {'name': 'Gallon',      'shorthand': 'g',           'type': 'volume',       'mult': 0.2},
+        {'name': 'Gallon',      'shorthand': 'g',           'type': 'volume',       'mult': 0.219969},
 
         {'name': 'Celius',      'shorthand': 'c',           'type': 'temp',         'mult': 1},
-        {'name': 'Kelvin',      'shorthand': 'k',           'type': 'temp',         'mult': 0.5},
-        {'name': 'Farenheight', 'shorthand': 'f',           'type': 'temp',         'mult': 0.9}
+        {'name': 'Kelvin',      'shorthand': 'k',           'type': 'temp',         'mult': 1},
+        {'name': 'Farenheight', 'shorthand': 'f',           'type': 'temp',         'mult': 1}
     ];
 
     $scope.convertValue = 0;
